@@ -1,0 +1,18 @@
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Local database and backup files
+*.dump
+*.backup
+*.bak
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and local workspace settings
+.vscode/
